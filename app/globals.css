@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 250 249 246;
+  --foreground: 30 41 59;
+}
+
+body {
+  background-color: rgb(var(--background) / 1);
+  color: rgb(var(--foreground) / 1);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
